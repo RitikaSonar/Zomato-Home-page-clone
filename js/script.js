@@ -56,22 +56,20 @@ document.addEventListener("DOMContentLoaded", function () {
             const text = this.textContent.trim();
 
             if (text === "Login") {
-                alert("Login page coming soon!");
+                window.location.href = "Login_page.html";
             }
 
             else if (text === "Signup") {
-                alert("Signup page coming soon!");
+                window.location.href = "signup.html";
             }
 
             else if (text === "Add restaurants") {
-                alert("Restaurant registration page coming soon!");
+                window.location.href = "add-restaurant.html";
             }
 
             else if (text === "Investors Relations") {
-                alert("Investors Relations page coming soon!");
+                window.location.href = "investor.html";
             }
-        });
-    });
 
 
     // =========================
